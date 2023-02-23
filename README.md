@@ -1,14 +1,11 @@
 # Setting Up
-1. Create a virtual environment for label studio 
-    >`python -m venv label-studio`
-
-    >`.\label-studio\Scripts\activate or on linux: source ./env/bin/activate`
+1. Create a virtual environment for label studio using anaconda (assumes anaconda is installed)
+    >`conda create --name yolo-label`
 
 2. Clone this repo & install the required packages
-   >`git clone https://github.com/4rn3/yolov7_labelstudio.git`<br>
+   >`git clone Western-Norway-Research-Institute/yolov7_underwaterdata.git`<br>
    > `cd code` <br>
    >`pip install -r requirements.txt` <br>
-
    
 3. Setting up label studio
    >`git clone https://github.com/heartexlabs/label-studio.git`
